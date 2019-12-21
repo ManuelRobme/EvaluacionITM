@@ -1,0 +1,24 @@
+{
+  "name": "ONWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raullg98/ONWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raullg98/ONWeb/issues"
+  },
+  "homepage": "https://github.com/Raullg98/ONWeb#readme",
+  "dependencies": {}
+}

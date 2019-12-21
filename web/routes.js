@@ -1,0 +1,17 @@
+const routes = require('next-routes')
+
+module.exports = routes()
+  //.add({ name: 'pedido', pattern: '/pedidos/:id?', page: 'pedidos/detalles' })
+  .add('login')
+  .add({ name: 'communities', pattern: '/comunidades', page: 'comunidades/index' })
+  .add({ name: 'teachers', pattern: '/encuesta', page: 'encuesta/index' })
+  .add({ name: 'addCommunity', pattern: '/comunidades/nuevo/:id?', page: 'comunidades/nuevo' })
+  .add({ name: 'oneCommunity', pattern: '/comunidades/:communityId', page: 'comunidades/detalles' })
+  .add({ name: 'addTeacher', pattern: '/encuesta/nuevo/:id?', page: 'encuesta/nuevo' })
+  .add({ name: 'oneTeacher', pattern: '/encuesta/:teacherId', page: 'encuesta/cuestionario' })
+  .add({ name: 'oneTeacherStats', pattern: '/encuesta/:teacherId', page: 'encuesta/estadisticas' })
+  .add({ name: 'addPost', pattern: '/comunidades/:communityId/publicacion/nuevo/:id?', page: 'publicaciones/nuevo' })
+  .add({ name: 'onePost', pattern: '/comunidades/:communityId/publicacion/:postId', page: 'publicaciones/detalles' })
+  .add({ name: 'addReport', pattern: '/comunidades/:communityId/reporte/nuevo/:id?', page: 'reportes/nuevo' })
+  .add({ name: 'oneReport', pattern: '/comunidades/:communityId/reporte/:reportId', page: 'reportes/detalles' })
+
