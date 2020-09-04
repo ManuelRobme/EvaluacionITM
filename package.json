@@ -49,7 +49,7 @@
     "next-nprogress": "^1.4.0",
     "next-redirect": "^1.0.1",
     "next-routes": "^1.4.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "openpay": "^1.0.3",
     "pluralize": "^7.0.0",
     "prop-types": "^15.7.2",
