@@ -34,7 +34,7 @@
     "dotenv": "^8.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "flag-icon-css": "^3.3.0",
     "font-awesome": "^4.7.0",
     "inflection": "^1.12.0",
